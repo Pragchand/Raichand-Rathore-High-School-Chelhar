@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR GPHS Chelhar</title>
+    <script>
+        alert("are you want to open this website");
+    </script>
+    <!-- CSS STYLE SHEET START HERE -->
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        body {
+
+            /* background: rgb(135, 178, 135); */
+            background: black;
+        }
+
+        /* .navbar{
+            background: #808080;
+        } */
+        .navbar ol {
+            background: rgb(168, 16, 31);
+        }
+
+        .navbar ol li {
+            float: left;
+            width: 16.666667%;
+            height: 10vh;
+            list-style: none;
+            background: rgb(60, 192, 60);
+        }
+
+        .navbar ol li a {
+            text-decoration: none;
+            line-height: 50px;
+            padding: 6px;
+            border-radius: 6px;
+            background: rgb(13, 147, 13);
+            color: white;
+        }
+
+        .navbar ol li a:hover {
+            color: rgb(13, 147, 13);
+            background: white;
+        }
+
+        .navbar ol li label {
+            line-height: 50px;
+            margin-left: -50px;
+        }
+
+        .navbar ol li label input[type="search"] {
+            border: 1.5px solid rgb(13, 147, 13);
+            border-radius: 4px;
+            height: 5vh;
+            background: white;
+        }
+
+        .navbar ol li span {
+            color: white;
+            background: rgb(13, 147, 13);
+            padding: 2px;
+            border-radius: 6px;
+            font-size: 15px;
+            margin-right: 25px;
+        }
+
+        .navbar li span:hover {
+            color: rgb(13, 147, 13);
+            background: white;
+
+        }
+
+        .navbar ol li img[src="images.jfif"] {
+            width: 30%;
+            border-radius: 50%;
+            margin-top: 2%;
+        }
+
+        .big-text {
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            padding-top: 150px;
+        }
+
+        .small-text {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        p::first-letter {
+            color: red;
+            font-size: 150%;
+        }
+
+        .fb-backgrond {
+            background: url(aa.jpg), url(bb.jpg), url(c.jpg), url(d.jpg), url(Image5.jfif);
+            width: 100%;
+            height: 200vh;
+            border: 1px solid;
+            background-repeat: no-repeat;
+            background-size: 50% 25%, 50% 25%, 50% 50%, 50% 50%, 50% 50%;
+            background-position: center left, center right, bottom right, bottom left, top left;
+            /* opacity: 0.5; */
+            border-radius: 20px;
+
+        }
+
+        .st-img img[src="e.jpg"] {
+            width: 160%;
+            height: 70vh;
+            margin-top: 10%;
+            margin-left: 5%;
+            border-radius: 20px;
+        }
+
+        .st-text {
+            width: 45%;
+            margin-left: 20%;
+            margin-top: 5%;
+        }
+
+        .main-st {
+            display: flex;
+        }
+
+
+        .st-imgg img[src="d.jpg"] {
+            width: 160%;
+            height: 70vh;
+            margin-top: 10%;
+            margin-left: 25%;
+            border-radius: 20px;
+        }
+
+        .st-textt {
+            width: 45%;
+            margin-left: 2.5%;
+            margin-top: 10%;
+        }
+
+        .main-stt {
+            display: flex;
+        }
+
+        .footer {
+            width: 100%;
+            height: 9vh;
+            background: rgb(13, 147, 13);
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .footer span {
+            color: rgb(235, 204, 204);
+        }
+
+        /*  CSS STYLE SHEET START HERE  */
+
+        /* RESPONSIVE SHEET BEGIN */
+
+        /* MOBILE */
+        @media only screen and (max-width: 600px) {
+            .navbar ol {
+                background-size: 100%;
+                background: rgb(60, 192, 60);
+            }
+
+            .navbar ol li {
+                width: 100%;
+                float: none;
+                text-align: center;
+                padding-top: 20%;
+
+            }
+
+            .navbar ol li a {
+                padding: 10px;
+                font-size: 30px;
+                box-sizing: border-box;
+            }
+
+            .navbar ol li label input[type="search"] {
+                width: 40%;
+                height: 6vh;
+            }
+
+            .navbar ol li img[src="images.jfif"] {
+                width: 15%;
+                height: 16.5vh;
+                border-radius: 50%;
+                margin-top: -20%;
+            }
+
+            .big-text h1 {
+                font-size: 40px;
+                width: 100%;
+                margin-top: -100px;
+            }
+
+            .small-text p {
+                font-size: 25px;
+            }
+
+            .main-st {
+                flex: none;
+            }
+
+            .st-img {
+                width: 100%;
+                flex: none;
+                float: none;
+            }
+
+            .st-img img[src="e.jpg"] {
+                width: 500px;
+                /* margin-left: 10%; */
+                flex: none;
+                float: none;
+            }
+
+            .st-text {
+                width: 100%;
+                float: none;
+                display: inline;
+                margin-top: 80%;
+                margin-left: -95%;
+
+            }
+
+
+            .main-stt {
+                flex: none;
+            }
+
+            .st-imgg {
+                width: 100%;
+                flex: none;
+                float: none;
+            }
+
+            .st-imgg img[src="d.jpg"] {
+                width: 500px;
+                margin-left: -100%;
+                flex: none;
+                float: none;
+            }
+
+            .st-textt {
+                width: 100%;
+                margin-top: 80%;
+                /* margin-left: -10%; */
+                flex: none;
+            }
+        }
+
+        /* TABLET */
+
+        @media only screen and (max-width: 768px) {
+            .navbar ol {
+                background-size: 100%;
+                background: rgb(60, 192, 60);
+            }
+
+            .navbar ol li {
+                width: 100%;
+                float: none;
+                text-align: center;
+                padding-top: 20%;
+
+            }
+
+            .navbar ol li a {
+                padding: 10px;
+                font-size: 30px;
+                box-sizing: border-box;
+            }
+
+            .navbar ol li label input[type="search"] {
+                width: 40%;
+                height: 6vh;
+            }
+
+            .navbar ol li img[src="images.jfif"] {
+                width: 15%;
+                height: 16.5vh;
+                border-radius: 50%;
+                margin-top: -20%;
+            }
+
+            .big-text h1 {
+                font-size: 40px;
+                width: 100%;
+                margin-top: -100px;
+            }
+
+            .small-text p {
+                font-size: 25px;
+            }
+
+            .main-st {
+                flex: none;
+            }
+
+            .st-img {
+                width: 100%;
+                flex: none;
+                float: none;
+            }
+
+            .st-img img[src="e.jpg"] {
+                width: 500px;
+                /* margin-left: 10%; */
+                flex: none;
+                float: none;
+            }
+
+            .st-text {
+                width: 100%;
+                float: none;
+                display: inline;
+                margin-top: 80%;
+                margin-left: -95%;
+
+            }
+
+
+            .main-stt {
+                flex: none;
+            }
+
+            .st-imgg {
+                width: 100%;
+                flex: none;
+                float: none;
+            }
+
+            .st-imgg img[src="d.jpg"] {
+                width: 500px;
+                margin-left: -100%;
+                flex: none;
+                float: none;
+            }
+
+            .st-textt {
+                width: 100%;
+                margin-top: 80%;
+                /* margin-left: -10%; */
+                flex: none;
+            }
+        }
+
+        /* DESKTOP */
+        /* RESPONSIVE SHEET END */
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR BEGIN -->
+    <nav>
+        <div class="navbar">
+            <ol>
+                <li><img src="images.jfif" alt=""></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
+                <li><label for=""><input type="search" name="search" id="Search"></label><span>Search</span></li>
+            </ol>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+    <!-- IMAGE HEADING AND SUMMARY BEGIN -->
+    <div class="fb-backgrond">
+        <div class="big-text">
+            <h1>Raichand Rathore Government Boys (P) High School Chelhar</h1>
+        </div>
+        <div class="small-text">
+            <p>About Raichand Rathore Government boys (P) High School Chelhar is locatet at Chelhar Sindh Pakistan
+                Chelhar near Mithi Tharparkar. It is best school in Tharparkar and teacher of this school are very hard
+                worker and student are very inteligent in all sindh of this school.</p>
+        </div>
+        <img src="" alt="">
+    </div>
+
+    <!-- HEADING AND SUMMARY END -->
+
+    <!-- IMAGES AND ABOUT IT  BEGIN-->
+    <div class="main-st">
+        <div class="st-img"><img src="e.jpg" alt=""></div><br><br>
+        <div class="st-text">
+            <h1>About RRGBPHSChelhar school</h1> ipsum dolor sit amet consectetur, adipisicing elit. Esse, ullam
+            aspernatur cum iure animi pariatur qui?
+            Quo quam animi reiciendis excepturi rerum aliquid, quis perspiciatis autem alias. Dolor, ipsa ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit enim doloremque sunt in corrupti quis
+            minima? Numquam possimus corporis exercitationem dolore neque aperiam error. Ex maiores officia asperiores
+            fugiat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, ullam aspernatur cum iure animi
+            pariatur qui?
+            Quo quam animi reiciendis excepturi rerum aliquid, quis perspiciatis autem alias. Dolor, ipsa ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit enim doloremque sunt in corrupti quis
+            minima? Numquam possimus corporis exercitationem dolore neque aperiam error. Ex maiores officia asperiores
+            fugiat?
+        </div>
+    </div>
+
+    <div class="main-stt">
+
+        <div class="st-textt">
+            <h1>Raichand Rathore Government Boys (P) High School Chelhar</h1> ipsum dolor sit amet consectetur,
+            adipisicing elit. Esse, ullam aspernatur cum iure animi pariatur qui?
+            Quo quam animi reiciendis excepturi rerum aliquid, quis perspiciatis autem alias. Dolor, ipsa ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit enim doloremque sunt in corrupti quis
+            minima? Numquam possimus corporis exercitationem dolore neque aperiam error. Ex maiores officia asperiores
+            fugiat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, ullam aspernatur cum iure animi
+            pariatur qui?
+            Quo quam animi reiciendis excepturi rerum aliquid, quis perspiciatis autem alias. Dolor, ipsa ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit enim doloremque sunt in corrupti quis
+            minima? Numquam possimus corporis exercitationem dolore neque aperiam error. Ex maiores officia asperiores
+            fugiat?
+        </div>
+        <div class="st-imgg"><img src="d.jpg" alt=""></div>
+    </div>
+    <!-- IMAGES AND ABOUT IT END -->
+
+    <!-- FOOTER BEGIN -->
+    <div class="footer">
+        <div class="copy"><span>1992 - Copy right </span><a>www.rrgbhschelhar.com</a></div>
+    </div>
+    <!-- FOOTER END -->
+</body>
+
+</html>
